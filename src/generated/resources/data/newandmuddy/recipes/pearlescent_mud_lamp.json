@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "M": {
+      "item": "minecraft:mud_brick_slab"
+    }
+  },
+  "pattern": [
+    " M ",
+    " G ",
+    " M "
+  ],
+  "result": {
+    "item": "newandmuddy:pearlescent_mud_lamp"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "newandmuddy:dried_mud_bricks"
+  },
+  "result": "newandmuddy:chiseled_dried_mud_bricks"
+}

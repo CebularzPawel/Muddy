@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "newandmuddy:mud_ball"
+    },
+    {
+      "item": "newandmuddy:mud_ball"
+    },
+    {
+      "item": "newandmuddy:mud_ball"
+    },
+    {
+      "item": "newandmuddy:mud_ball"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "newandmuddy:packed_mud_ball"
+  }
+}

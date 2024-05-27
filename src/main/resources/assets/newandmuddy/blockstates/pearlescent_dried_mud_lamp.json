@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "newandmuddy:block/pearlescent_dried_mud_lamp_on" },
+    "lit=false": { "model": "newandmuddy:block/pearlescent_dried_mud_lamp_off" }
+  }
+}

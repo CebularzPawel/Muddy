@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:swamp",
+  "features": "newandmuddy:mud_disk_place",
+  "step": "top_layer_modification"
+}

@@ -1,0 +1,5 @@
+// 1.20.1	2024-05-25T21:31:41.2921945	Tags for minecraft:block mod id newandmuddy
+c86594876c5dd368d67b72ef3c8ca8b16d66c39e data/minecraft/tags/blocks/maintains_farmland.json
+90b2a878336f1b5846d385157dd68b95d3c0cf14 data/minecraft/tags/blocks/mineable/pickaxe.json
+729a6abee737e8324a9228feaa415a4a8869828f data/minecraft/tags/blocks/mineable/shovel.json
+a2656baaa2a355c2092cab8f3c654440e91e8fb6 data/minecraft/tags/blocks/walls.json

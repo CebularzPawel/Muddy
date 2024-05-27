@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:ochre_froglight"
+    },
+    "M": {
+      "item": "minecraft:mud_brick_slab"
+    }
+  },
+  "pattern": [
+    " M ",
+    " G ",
+    " M "
+  ],
+  "result": {
+    "item": "newandmuddy:ochre_mud_lamp"
+  },
+  "show_notification": true
+}

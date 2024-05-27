@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "newandmuddy:block/mud_pillar_end",
+    "side": "newandmuddy:block/mud_pillar"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "newandmuddy:dried_mud_bricks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "count": 6,
+    "item": "newandmuddy:dried_mud_bricks_wall"
+  },
+  "show_notification": true
+}

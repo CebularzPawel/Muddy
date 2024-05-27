@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "newandmuddy:dried_mud_bricks_slab"
+    }
+  },
+  "pattern": [
+    "M  ",
+    "M  ",
+    "   "
+  ],
+  "result": {
+    "item": "newandmuddy:chiseled_dried_mud_bricks"
+  },
+  "show_notification": true
+}

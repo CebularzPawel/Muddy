@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:mangrove_swamp",
+  "features": "newandmuddy:sinking_mud_disk_place",
+  "step": "top_layer_modification"
+}

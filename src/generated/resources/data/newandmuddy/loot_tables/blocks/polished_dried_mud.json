@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "newandmuddy:polished_dried_mud"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "newandmuddy:blocks/polished_dried_mud"
+}

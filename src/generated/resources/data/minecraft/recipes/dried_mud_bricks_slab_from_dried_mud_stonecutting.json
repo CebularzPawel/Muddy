@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "newandmuddy:dried_mud"
+  },
+  "result": "newandmuddy:dried_mud_bricks_slab"
+}

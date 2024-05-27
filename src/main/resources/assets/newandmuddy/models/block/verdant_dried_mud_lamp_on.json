@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "newandmuddy:block/dried_mud_lamp_end",
+    "side": "newandmuddy:block/verdant_dried_mud_lamp_on",
+    "top": "newandmuddy:block/dried_mud_lamp_end"
+  }
+}
