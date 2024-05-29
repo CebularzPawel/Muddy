@@ -1,3 +1,5 @@
-// 1.20.1	2024-05-27T19:32:51.2656715	Registries
+// 1.20.1	2024-05-28T20:01:37.758375	Registries
 4831277163a3a4e1026e6692cfa23a2cb4b6b610 data/newandmuddy/worldgen/configured_feature/mud_disk.json
+b1a341c1dd8fc2b14457e0c53568b270c53f5a9a data/newandmuddy/worldgen/configured_feature/sinking_mud_disk.json
 2ccea4fe75d40142401a759cc8999fd0282a8c51 data/newandmuddy/worldgen/placed_feature/mud_disk_place.json
+758b5809cec25251d3822a126d999e791fc49bb0 data/newandmuddy/worldgen/placed_feature/sinking_mud_disk_place.json

@@ -40,8 +40,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.DRIED_MUD_BRICKS_SLAB.get()),blockTexture(ModBlocks.DRIED_MUD_BRICKS.get()),blockTexture(ModBlocks.DRIED_MUD_BRICKS.get()));
         wallBlock(((WallBlock) ModBlocks.DRIED_MUD_BRICKS_WALL.get()),blockTexture(ModBlocks.DRIED_MUD_BRICKS.get()));
 
+        stairsBlock(((StairBlock) ModBlocks.POLISHED_PACKED_MUD_STAIRS.get()),blockTexture(ModBlocks.POLISHED_PACKED_MUD.get()));
+        slabBlock(((SlabBlock) ModBlocks.POLISHED_PACKED_MUD_SLAB.get()),blockTexture(ModBlocks.POLISHED_PACKED_MUD.get()),blockTexture(ModBlocks.POLISHED_PACKED_MUD.get()));
+        wallBlock(((WallBlock) ModBlocks.POLISHED_PACKED_MUD_WALL.get()),blockTexture(ModBlocks.POLISHED_PACKED_MUD.get()));
 
-
+        stairsBlock(((StairBlock) ModBlocks.POLISHED_DRIED_MUD_STAIRS.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()));
+        slabBlock(((SlabBlock) ModBlocks.POLISHED_DRIED_MUD_SLAB.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()));
+        wallBlock(((WallBlock) ModBlocks.POLISHED_DRIED_MUD_WALL.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()));
+        //simpleBlockWithItem(ModBlocks.CINNAMON_FERN.get(), models().cross(blockTexture(ModBlocks.CINNAMON_FERN.get()).getPath(),
+                //blockTexture(ModBlocks.CINNAMON_FERN.get())).renderType("cutout"));
+        //simpleBlockWithItem(ModBlocks.POTTED_CINNAMON_FERN.get(), models().singleTexture("potted_catmint", new ResourceLocation("flower_pot_cross"), "plant",
+               // blockTexture(ModBlocks.CINNAMON_FERN.get())).renderType("cutout"));
 
 
     }

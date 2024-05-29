@@ -17,6 +17,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DispenserBlock;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -55,7 +57,6 @@ public class NewAndMuddy
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("HELLO FROM COMMON SETUP");
 
         DispenserBlock.registerBehavior(ModItems.MUD_BALL.get(), new AbstractProjectileDispenseBehavior() {
             protected Projectile getProjectile(Level p_123476_, Position p_123477_, ItemStack p_123478_) {
@@ -64,6 +65,11 @@ public class NewAndMuddy
                 });
             }
         });
+
+        //event.enqueueWork(()->{
+            //((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CINNAMON_FERN.getId(),ModBlocks.POTTED_CINNAMON_FERN);
+        //});
+
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)

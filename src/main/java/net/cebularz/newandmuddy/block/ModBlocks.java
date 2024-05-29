@@ -3,6 +3,7 @@ package net.cebularz.newandmuddy.block;
 import net.cebularz.newandmuddy.block.custom.*;
 import net.cebularz.newandmuddy.NewAndMuddy;
 import net.cebularz.newandmuddy.item.ModItems;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -25,9 +26,32 @@ public class ModBlocks {
     public static final RegistryObject<Block> MUD_FARMLAND = registerBlock("mud_farmland",
             ()-> new MudFarmLand(BlockBehaviour.Properties.copy(Blocks.FARMLAND).sound(SoundType.MUD).mapColor(MapColor.COLOR_GRAY)));
     public static final RegistryObject<Block> SINKING_MUD = registerBlock("sinking_mud",
-            ()-> new SinkingMudBlock(BlockBehaviour.Properties.copy(Blocks.MUD)));
+            ()-> new SinkingMudBlock(BlockBehaviour.Properties.copy(Blocks.MUD).forceSolidOn()));
     public static final RegistryObject<Block> DRIED_MUD = registerBlock("dried_mud",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.SANDSTONE).strength(0.5f)));
+   // public static final RegistryObject<Block> CINNAMON_FERN = registerBlock("cinnamon_fern",
+            //()-> new FlowerBlock(()-> MobEffects.DIG_SPEED,5,
+                    //BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
+    //public static final RegistryObject<Block> POTTED_CINNAMON_FERN = registerBlock("potted_cinnamon_fern",
+            //()-> new FlowerPotBlock(()->((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.CINNAMON_FERN,
+                    //BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+
+    public static final RegistryObject<Block> POLISHED_PACKED_MUD_STAIRS = registerBlock("polished_packed_mud_stairs",
+            ()-> new StairBlock(()-> ModBlocks.POLISHED_PACKED_MUD.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> POLISHED_PACKED_MUD_SLAB = registerBlock("polished_packed_mud_slab",
+            ()-> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> POLISHED_PACKED_MUD_WALL = registerBlock("polished_packed_mud_wall",
+            ()-> new WallBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+
+
+    public static final RegistryObject<Block> POLISHED_DRIED_MUD_STAIRS = registerBlock("polished_dried_mud_stairs",
+            ()-> new StairBlock(()-> ModBlocks.POLISHED_DRIED_MUD.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> POLISHED_DRIED_MUD_SLAB = registerBlock("polished_dried_mud_slab",
+            ()-> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> POLISHED_DRIED_MUD_WALL = registerBlock("polished_dried_mud_wall",
+            ()-> new WallBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+
+
     public static final RegistryObject<Block> DRIED_MUD_BRICKS = registerBlock("dried_mud_bricks",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
     public static final RegistryObject<Block> DRIED_MUD_BRICKS_STAIRS = registerBlock("dried_mud_bricks_stairs",

@@ -16,7 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_DISK_MUD = registerKey("add_disk_mud");
-    //public static final ResourceKey<BiomeModifier> ADD_DISK_SINKING_MUD = registerKey("add_sinking_disk_mud");
+    public static final ResourceKey<BiomeModifier> ADD_DISK_SINKING_MUD = registerKey("add_sinking_disk_mud");
 
 
    /// public static void bootstrap(BootstapContext<BiomeModifier> context) {

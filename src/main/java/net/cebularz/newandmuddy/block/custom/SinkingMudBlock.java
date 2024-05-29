@@ -35,6 +35,9 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.pathfinder.PathComputationType;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.*;
+import net.minecraftforge.common.ToolActions;
+import net.minecraftforge.event.level.BlockEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import java.awt.*;
 import java.util.Optional;
@@ -75,28 +78,18 @@ public class SinkingMudBlock extends Block implements BucketPickup{
 
     public void entityInside(BlockState pState, Level pLevel, BlockPos pPos, Entity pEntity) {
         int headblock = (int) pEntity.getEyeHeight();
-        if (!(pEntity instanceof LivingEntity) || pEntity.getFeetBlockState().is(this)) {
-            pEntity.makeStuckInBlock(pState, new Vec3(0.8999999761581421, 1.5, 0.8999999761581421));
-            if (pLevel.isClientSide) {
-                RandomSource randomsource = pLevel.getRandom();
-                boolean flag = pEntity.xOld != pEntity.getX() || pEntity.zOld != pEntity.getZ();
-                if (flag && randomsource.nextBoolean()) {
-                    BlockParticleOption blockParticleData = new BlockParticleOption(ParticleTypes.BLOCK, Blocks.MUD.defaultBlockState());
-                    pLevel.addParticle(blockParticleData, pEntity.getX(), (double)(pPos.getY() + 1), pEntity.getZ(), (double)(Mth.randomBetween(randomsource, -1.0F, 1.0F) * 0.083333336F), 0.05000000074505806, (double)(Mth.randomBetween(randomsource, -1.0F, 1.0F) * 0.083333336F));
-                }
+        pEntity.makeStuckInBlock(pState, new Vec3(0.8999999761581421, 1.5, 0.8999999761581421));
+        if (pLevel.isClientSide) {
+            RandomSource randomsource = pLevel.getRandom();
+            boolean flag = pEntity.xOld != pEntity.getX() || pEntity.zOld != pEntity.getZ();
+            if (flag && randomsource.nextBoolean()) {
+                BlockParticleOption blockParticleData = new BlockParticleOption(ParticleTypes.BLOCK, Blocks.MUD.defaultBlockState());
+                pLevel.addParticle(blockParticleData, pEntity.getX(), (double)(pPos.getY() + 1), pEntity.getZ(), (double)(Mth.randomBetween(randomsource, -1.0F, 1.0F) * 0.083333336F), 0.05000000074505806, (double)(Mth.randomBetween(randomsource, -1.0F, 1.0F) * 0.083333336F));
             }
         }
 
         if(pLevel.getBlockState(pPos.offset(0,headblock,0)).is(ModBlocks.SINKING_MUD.get())){
-            pEntity.makeStuckInBlock(pState, new Vec3(0.8999999761581421, 1.5, 0.8999999761581421));
-            if (pLevel.isClientSide) {
-                RandomSource randomsource = pLevel.getRandom();
-                boolean flag = pEntity.xOld != pEntity.getX() || pEntity.zOld != pEntity.getZ();
-                if (flag && randomsource.nextBoolean()) {
-                    BlockParticleOption blockParticleData = new BlockParticleOption(ParticleTypes.BLOCK, Blocks.MUD.defaultBlockState());
-                    pLevel.addParticle(blockParticleData, pEntity.getX(), (double)(pPos.getY() + 1), pEntity.getZ(), (double)(Mth.randomBetween(randomsource, -1.0F, 1.0F) * 0.083333336F), 0.05000000074505806, (double)(Mth.randomBetween(randomsource, -1.0F, 1.0F) * 0.083333336F));
-                }
-            }
+
 
             if (!(pEntity instanceof ItemEntity)){
                 pEntity.hurt(pLevel.damageSources().inWall(), 1.0F);
@@ -159,12 +152,14 @@ public class SinkingMudBlock extends Block implements BucketPickup{
     }
 
     public Optional<SoundEvent> getPickupSound() {
-        return Optional.of(SoundEvents.BUCKET_FILL_POWDER_SNOW);
+        return Optional.of(SoundEvents.MUD_BREAK);
     }
 
     public boolean isPathfindable(BlockState pState, BlockGetter pLevel, BlockPos pPos, PathComputationType pType) {
         return true;
     }
+
+
 }
 
 

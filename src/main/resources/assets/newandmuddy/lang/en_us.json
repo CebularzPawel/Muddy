@@ -10,6 +10,12 @@
   "block.newandmuddy.dried_mud_bricks_stairs": "Dried Mud Bricks Stairs",
   "block.newandmuddy.dried_mud_bricks_slab": "Dried Mud Bricks Slab",
   "block.newandmuddy.dried_mud_bricks_wall": "Dried Mud Bricks Wall",
+  "block.newandmuddy.polished_dried_mud_stairs": "Polished Dried Mud Stairs",
+  "block.newandmuddy.polished_dried_mud_slab": "Polished Dried Mud Slab",
+  "block.newandmuddy.polished_dried_mud_wall": "Polished Dried Mud Wall",
+  "block.newandmuddy.polished_packed_mud_stairs": "Polished Packed Mud Stairs",
+  "block.newandmuddy.polished_packed_mud_slab": "Polished Packed Mud Slab",
+  "block.newandmuddy.polished_packed_mud_wall": "Polished Packed Mud Wall",
   "creativetab.custom_tab": "New&Muddy",
   "item.newandmuddy.sinking_mud_bucket": "Sinking Mud Bucket",
   "item.newandmuddy.mud_ball": "Mud Ball",
@@ -21,6 +27,10 @@
   "block.newandmuddy.polished_dried_mud": "Polished Dried Mud",
   "block.newandmuddy.polished_packed_mud": "Polished Packed Mud",
   "block.newandmuddy.chiseled_dried_mud_bricks": "Chiseled Dried Mud Bricks",
-  "effect.newandmuddy.muddy": "Muddy"
+  "effect.newandmuddy.muddy": "Muddy",
+  "block.newandmuddy.mud_farmland": "Mud Farmland",
+  "block.newandmuddy.sinking_mud": "Sinking Mud",
+  "block.newandmuddy.cinnamon_fern": "Cinnamon Fern"
+
 
 }

@@ -20,14 +20,15 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> DISK_MUD_SWAMP_PLACED_KEY = registerKey("mud_disk_place");
-    //public static final ResourceKey<PlacedFeature> DISK_SINKING_MUD_PLACED_KEY = registerKey("sinking_mud_disk_place");
+    public static final ResourceKey<PlacedFeature> DISK_SINKING_MUD_PLACED_KEY = registerKey("sinking_mud_disk_place");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context){
         HolderGetter<ConfiguredFeature<?,?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         PlacementUtils.register(context, DISK_MUD_SWAMP_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.DISK_MUD_SWAMP_KEY), new PlacementModifier[]{CountPlacement.of(1), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, RandomOffsetPlacement.vertical(ConstantInt.of(-1)), BlockPredicateFilter.forPredicate(BlockPredicate.matchesBlocks(new Block[]{Blocks.GRASS_BLOCK})), BiomeFilter.biome()});
 
-        //PlacementUtils.register(context, DISK_SINKING_MUD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.DISK_SINKING_MUD_KEY), new PlacementModifier[]{CountPlacement.of(1), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, RandomOffsetPlacement.vertical(ConstantInt.of(-1)), BlockPredicateFilter.forPredicate(BlockPredicate.matchesBlocks(new Block[]{Blocks.MUD})), BiomeFilter.biome()});
+        PlacementUtils.register(context, DISK_SINKING_MUD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.DISK_SINKING_MUD_KEY), new PlacementModifier[]{CountPlacement.of(1), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, RandomOffsetPlacement.vertical(ConstantInt.of(-1)), BlockPredicateFilter.forPredicate(BlockPredicate.matchesBlocks(new Block[]{Blocks.MUD})), BiomeFilter.biome()});
+
 
     }
 

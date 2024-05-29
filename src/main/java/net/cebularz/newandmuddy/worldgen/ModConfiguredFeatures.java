@@ -28,7 +28,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?,?>> DISK_MUD_SWAMP_KEY = registerKey("mud_disk");
-    //public static final ResourceKey<ConfiguredFeature<?,?>> DISK_SINKING_MUD_KEY = registerKey("sinking_mud_disk");
+    public static final ResourceKey<ConfiguredFeature<?,?>> DISK_SINKING_MUD_KEY = registerKey("sinking_mud_disk");
 
    public static void bootstrap(BootstapContext<ConfiguredFeature<?,?>>context){
        RuleTest mudreplacables = new TagMatchTest(BlockTags.DIRT);
@@ -36,7 +36,8 @@ public class ModConfiguredFeatures {
 
        FeatureUtils.register(context, DISK_MUD_SWAMP_KEY, Feature.DISK, new DiskConfiguration(new RuleBasedBlockStateProvider(BlockStateProvider.simple(Blocks.MUD), List.of(new RuleBasedBlockStateProvider.Rule(BlockPredicate.not(BlockPredicate.anyOf(BlockPredicate.solid(Direction.UP.getNormal()), BlockPredicate.matchesFluids(Direction.UP.getNormal(), new Fluid[]{Fluids.WATER}))), BlockStateProvider.simple(Blocks.MUD)))), BlockPredicate.matchesBlocks(List.of(Blocks.DIRT, Blocks.GRASS_BLOCK)), UniformInt.of(2, 5), 2));
 
-       //FeatureUtils.register(context, DISK_SINKING_MUD_KEY, Feature.DISK, new DiskConfiguration(new RuleBasedBlockStateProvider(BlockStateProvider.simple(ModBlocks.SINKING_MUD.get()), List.of(new RuleBasedBlockStateProvider.Rule(BlockPredicate.not(BlockPredicate.anyOf(BlockPredicate.solid(Direction.UP.getNormal()), BlockPredicate.matchesFluids(Direction.UP.getNormal(), new Fluid[]{Fluids.WATER}))), BlockStateProvider.simple(ModBlocks.SINKING_MUD.get())))), BlockPredicate.matchesBlocks(List.of(Blocks.MUD)), UniformInt.of(2, 5), 2));
+       FeatureUtils.register(context, DISK_SINKING_MUD_KEY, Feature.DISK, new DiskConfiguration(new RuleBasedBlockStateProvider(BlockStateProvider.simple(ModBlocks.SINKING_MUD.get()), List.of(new RuleBasedBlockStateProvider.Rule(BlockPredicate.not(BlockPredicate.anyOf(BlockPredicate.solid(Direction.UP.getNormal()), BlockPredicate.matchesFluids(Direction.UP.getNormal(), new Fluid[]{Fluids.WATER}))), BlockStateProvider.simple(ModBlocks.SINKING_MUD.get())))), BlockPredicate.matchesBlocks(List.of(Blocks.MUD)), UniformInt.of(2, 3), 2));
+
 
    }
 

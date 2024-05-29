@@ -45,7 +45,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MUD_SPLASH.get());
 
         this.tag(BlockTags.WALLS)
-                .add(ModBlocks.DRIED_MUD_BRICKS_WALL.get());
+                .add(ModBlocks.DRIED_MUD_BRICKS_WALL.get())
+                .add(ModBlocks.POLISHED_DRIED_MUD_WALL.get())
+                .add(ModBlocks.POLISHED_PACKED_MUD_WALL.get());
     }
 
 }

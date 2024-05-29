@@ -21,6 +21,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
         stonecutterResultFromBase(consumer,RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD.get().asItem(),Blocks.PACKED_MUD);
 
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_SLAB.get().asItem(),Blocks.PACKED_MUD,2);
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_STAIRS.get().asItem(),Blocks.PACKED_MUD);
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_WALL.get().asItem(),Blocks.PACKED_MUD);
+
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.CHISELED_MUD_BRICKS.get().asItem(),Blocks.PACKED_MUD);
 
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,Blocks.MUD_BRICKS.asItem(),Blocks.PACKED_MUD);
@@ -33,7 +39,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.MUD_PILLAR.get().asItem(),Blocks.PACKED_MUD);
 
-        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_PACKED_MUD.get().asItem(),Blocks.MUD_BRICKS);
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_SLAB.get().asItem(),ModBlocks.POLISHED_PACKED_MUD.get(),2);
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_STAIRS.get().asItem(),ModBlocks.POLISHED_PACKED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_WALL.get().asItem(),ModBlocks.POLISHED_PACKED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.CHISELED_MUD_BRICKS.get().asItem(),ModBlocks.POLISHED_PACKED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,Blocks.MUD_BRICKS.asItem(),ModBlocks.POLISHED_PACKED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,Blocks.MUD_BRICK_SLAB.asItem(),ModBlocks.POLISHED_PACKED_MUD.get(),2);
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,Blocks.MUD_BRICK_STAIRS.asItem(),ModBlocks.POLISHED_PACKED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,Blocks.MUD_BRICK_WALL.asItem(),ModBlocks.POLISHED_PACKED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.MUD_PILLAR.get().asItem(),ModBlocks.POLISHED_PACKED_MUD.get());
 
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.CHISELED_MUD_BRICKS.get().asItem(),Blocks.MUD_BRICKS);
 
@@ -43,14 +65,43 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD.get().asItem(),ModBlocks.DRIED_MUD.get());
 
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD_SLAB.get().asItem(),ModBlocks.DRIED_MUD.get(),2);
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD_STAIRS.get().asItem(),ModBlocks.DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD_WALL.get().asItem(),ModBlocks.DRIED_MUD.get());
+
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.CHISELED_DRIED_MUD_BRICKS.get().asItem(),ModBlocks.DRIED_MUD.get());
 
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS.get().asItem(),ModBlocks.DRIED_MUD.get());
 
-
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_PILLAR.get().asItem(),ModBlocks.DRIED_MUD.get());
 
-        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD.get().asItem(),ModBlocks.DRIED_MUD_BRICKS.get());
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_STAIRS.get().asItem(),ModBlocks.DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_WALL.get().asItem(),ModBlocks.DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_SLAB.get().asItem(),ModBlocks.DRIED_MUD.get(),2);
+
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD_SLAB.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get(),2);
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD_STAIRS.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.POLISHED_DRIED_MUD_WALL.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.CHISELED_DRIED_MUD_BRICKS.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_PILLAR.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_STAIRS.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_WALL.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get());
+
+        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_SLAB.get().asItem(),ModBlocks.POLISHED_DRIED_MUD.get(),2);
+
 
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.CHISELED_DRIED_MUD_BRICKS.get().asItem(),ModBlocks.DRIED_MUD_BRICKS.get());
 
@@ -62,11 +113,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_SLAB.get().asItem(),ModBlocks.DRIED_MUD_BRICKS.get(),2);
 
-        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_STAIRS.get().asItem(),ModBlocks.DRIED_MUD.get());
 
-        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_WALL.get().asItem(),ModBlocks.DRIED_MUD.get());
-
-        stonecutterResultFromBase(consumer,RecipeCategory.MISC,ModBlocks.DRIED_MUD_BRICKS_SLAB.get().asItem(),ModBlocks.DRIED_MUD.get(),2);
 
         smeltingResultFromBase(consumer,ModBlocks.DRIED_MUD.get().asItem(),Blocks.MUD);
 
@@ -78,6 +125,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('G', Blocks.VERDANT_FROGLIGHT)
                 .define('M', ModBlocks.DRIED_MUD_BRICKS_SLAB.get())
                 .unlockedBy(getHasName(Blocks.VERDANT_FROGLIGHT), has(Blocks.VERDANT_FROGLIGHT))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_DRIED_MUD.get())
+                .pattern("   ")
+                .pattern("MM ")
+                .pattern("MM ")
+                .define('M', ModBlocks.DRIED_MUD.get())
+                .unlockedBy(getHasName(ModBlocks.DRIED_MUD.get()), has(ModBlocks.DRIED_MUD.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD.get())
+                .pattern("   ")
+                .pattern("MM ")
+                .pattern("MM ")
+                .define('M', Blocks.PACKED_MUD)
+                .unlockedBy(getHasName(Blocks.PACKED_MUD), has(Blocks.PACKED_MUD))
                 .save(consumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DRIED_MUD_BRICKS_SLAB.get(),6)
@@ -103,6 +166,55 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('M', ModBlocks.DRIED_MUD_BRICKS.get())
                 .unlockedBy(getHasName(ModBlocks.DRIED_MUD_BRICKS.get()), has(ModBlocks.DRIED_MUD_BRICKS.get()))
                 .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_SLAB.get(),6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("MMM")
+                .define('M', ModBlocks.POLISHED_PACKED_MUD.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_PACKED_MUD.get()), has(ModBlocks.POLISHED_PACKED_MUD.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_STAIRS.get(),4)
+                .pattern("M  ")
+                .pattern("MM ")
+                .pattern("MMM")
+                .define('M', ModBlocks.POLISHED_PACKED_MUD.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_PACKED_MUD.get()), has(ModBlocks.POLISHED_PACKED_MUD.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD_WALL.get(),6)
+                .pattern("   ")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', ModBlocks.POLISHED_PACKED_MUD.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_PACKED_MUD.get()), has(ModBlocks.POLISHED_PACKED_MUD.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_DRIED_MUD_SLAB.get(),6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("MMM")
+                .define('M', ModBlocks.POLISHED_DRIED_MUD.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_DRIED_MUD.get()), has(ModBlocks.POLISHED_DRIED_MUD.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_DRIED_MUD_STAIRS.get(),4)
+                .pattern("M  ")
+                .pattern("MM ")
+                .pattern("MMM")
+                .define('M', ModBlocks.POLISHED_DRIED_MUD.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_DRIED_MUD.get()), has(ModBlocks.POLISHED_DRIED_MUD.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_DRIED_MUD_WALL.get(),6)
+                .pattern("   ")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', ModBlocks.POLISHED_DRIED_MUD.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_DRIED_MUD.get()), has(ModBlocks.POLISHED_DRIED_MUD.get()))
+                .save(consumer);
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OCHRE_DRIED_MUD_LAMP.get(),1)
                 .pattern(" M ")

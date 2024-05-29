@@ -21,8 +21,13 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.MUD_BALL.get());
                         pOutput.accept(ModItems.PACKED_MUD_BALL.get());
+                        //pOutput.accept(ModBlocks.CINNAMON_FERN.get());
                         pOutput.accept(ModItems.SINKING_MUD_BUCKET.get());
+                        pOutput.accept(ModBlocks.MUD_FARMLAND.get());
                         pOutput.accept(ModBlocks.POLISHED_PACKED_MUD.get());
+                        pOutput.accept(ModBlocks.POLISHED_PACKED_MUD_STAIRS.get());
+                        pOutput.accept(ModBlocks.POLISHED_PACKED_MUD_SLAB.get());
+                        pOutput.accept(ModBlocks.POLISHED_PACKED_MUD_WALL.get());
                         pOutput.accept(ModBlocks.MUD_PILLAR.get());
                         pOutput.accept(ModBlocks.CHISELED_MUD_BRICKS.get());
                         pOutput.accept(ModBlocks.OCHRE_MUD_LAMP.get());
@@ -34,6 +39,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DRIED_MUD_BRICKS_SLAB.get());
                         pOutput.accept(ModBlocks.DRIED_MUD_BRICKS_WALL.get());
                         pOutput.accept(ModBlocks.POLISHED_DRIED_MUD.get());
+                        pOutput.accept(ModBlocks.POLISHED_DRIED_MUD_STAIRS.get());
+                        pOutput.accept(ModBlocks.POLISHED_DRIED_MUD_SLAB.get());
+                        pOutput.accept(ModBlocks.POLISHED_DRIED_MUD_WALL.get());
                         pOutput.accept(ModBlocks.DRIED_MUD_PILLAR.get());
                         pOutput.accept(ModBlocks.CHISELED_DRIED_MUD_BRICKS.get());
                         pOutput.accept(ModBlocks.OCHRE_DRIED_MUD_LAMP.get());

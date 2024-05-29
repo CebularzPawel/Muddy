@@ -50,6 +50,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DRIED_MUD_BRICKS_STAIRS.get());
         this.dropSelf(ModBlocks.DRIED_MUD_BRICKS_WALL.get());
 
+        this.add(ModBlocks.POLISHED_PACKED_MUD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.POLISHED_PACKED_MUD_SLAB.get()));
+        this.dropSelf(ModBlocks.POLISHED_PACKED_MUD_STAIRS.get());
+        this.dropSelf(ModBlocks.POLISHED_PACKED_MUD_WALL.get());
+
+        this.add(ModBlocks.POLISHED_DRIED_MUD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.POLISHED_DRIED_MUD_SLAB.get()));
+        this.dropSelf(ModBlocks.POLISHED_DRIED_MUD_STAIRS.get());
+        this.dropSelf(ModBlocks.POLISHED_DRIED_MUD_WALL.get());
+
+        //this.dropSelf(ModBlocks.CINNAMON_FERN.get());
+        //this.add(ModBlocks.POTTED_CINNAMON_FERN.get(), createPotFlowerItemTable(ModBlocks.CINNAMON_FERN.get()));
 
         this.add(ModBlocks.SINKING_MUD.get(),
                 block -> noDrop());

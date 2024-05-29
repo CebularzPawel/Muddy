@@ -28,6 +28,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.DRIED_MUD_BRICKS_STAIRS);
         evenSimplerBlockItem(ModBlocks.DRIED_MUD_BRICKS_SLAB);
 
+        wallItem(ModBlocks.POLISHED_PACKED_MUD_WALL, ModBlocks.POLISHED_PACKED_MUD);
+        evenSimplerBlockItem(ModBlocks.POLISHED_PACKED_MUD_STAIRS);
+        evenSimplerBlockItem(ModBlocks.POLISHED_PACKED_MUD_SLAB);
+
+        wallItem(ModBlocks.POLISHED_DRIED_MUD_WALL, ModBlocks.POLISHED_DRIED_MUD);
+        evenSimplerBlockItem(ModBlocks.POLISHED_DRIED_MUD_STAIRS);
+        evenSimplerBlockItem(ModBlocks.POLISHED_DRIED_MUD_SLAB);
+
+        //simpleBlockItemBlockTexture(ModBlocks.CINNAMON_FERN);
+
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
@@ -42,5 +52,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
                 .texture("wall",  new ResourceLocation(NewAndMuddy.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
-
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(NewAndMuddy.MOD_ID,"block/" + item.getId().getPath()));
+    }
 }
