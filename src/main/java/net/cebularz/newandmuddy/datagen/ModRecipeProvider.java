@@ -127,7 +127,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Blocks.VERDANT_FROGLIGHT), has(Blocks.VERDANT_FROGLIGHT))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_DRIED_MUD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_DRIED_MUD.get(),4)
                 .pattern("   ")
                 .pattern("MM ")
                 .pattern("MM ")
@@ -135,7 +135,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.DRIED_MUD.get()), has(ModBlocks.DRIED_MUD.get()))
                 .save(consumer);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.POLISHED_PACKED_MUD.get(),4)
                 .pattern("   ")
                 .pattern("MM ")
                 .pattern("MM ")

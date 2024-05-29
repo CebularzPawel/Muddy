@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "newandmuddy:polished_packed_mud"
+    }
+  },
+  "pattern": [
+    "   ",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "count": 6,
+    "item": "newandmuddy:polished_packed_mud_wall"
+  },
+  "show_notification": true
+}

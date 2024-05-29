@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "newandmuddy:dried_mud"
+    }
+  },
+  "pattern": [
+    "   ",
+    "MM ",
+    "MM "
+  ],
+  "result": {
+    "count": 4,
+    "item": "newandmuddy:polished_dried_mud"
+  },
+  "show_notification": true
+}

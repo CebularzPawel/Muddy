@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "newandmuddy:block/polished_packed_mud"
+  }
+}

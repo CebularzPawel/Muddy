@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "newandmuddy:polished_dried_mud"
+  },
+  "result": "newandmuddy:dried_mud_bricks_stairs"
+}

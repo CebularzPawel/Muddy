@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "newandmuddy:polished_packed_mud"
+  },
+  "result": "minecraft:mud_brick_slab"
+}

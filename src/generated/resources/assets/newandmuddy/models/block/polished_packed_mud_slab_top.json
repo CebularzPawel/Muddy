@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "newandmuddy:block/polished_packed_mud",
+    "side": "newandmuddy:block/polished_packed_mud",
+    "top": "newandmuddy:block/polished_packed_mud"
+  }
+}
