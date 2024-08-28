@@ -27,6 +27,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.MUD_PILLAR);
         blockWithItem(ModBlocks.CHISELED_MUD_BRICKS);
 
+        blockWithItem(ModBlocks.PACKED_MUD_TILES);
+        blockWithItem(ModBlocks.DRIED_MUD_TILES);
+
         blockWithItem(ModBlocks.POLISHED_PACKED_MUD);
         blockWithItem(ModBlocks.DRIED_MUD);
         blockWithItem(ModBlocks.DRIED_MUD_BRICKS);
@@ -47,6 +50,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) ModBlocks.POLISHED_DRIED_MUD_STAIRS.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()));
         slabBlock(((SlabBlock) ModBlocks.POLISHED_DRIED_MUD_SLAB.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()));
         wallBlock(((WallBlock) ModBlocks.POLISHED_DRIED_MUD_WALL.get()),blockTexture(ModBlocks.POLISHED_DRIED_MUD.get()));
+
+        stairsBlock(((StairBlock) ModBlocks.PACKED_MUD_TILE_STAIRS.get()),blockTexture(ModBlocks.PACKED_MUD_TILES.get()));
+        slabBlock(((SlabBlock) ModBlocks.PACKED_MUD_TILE_SLAB.get()),blockTexture(ModBlocks.PACKED_MUD_TILES.get()),blockTexture(ModBlocks.PACKED_MUD_TILES.get()));
+        wallBlock(((WallBlock) ModBlocks.PACKED_MUD_TILE_WALL.get()),blockTexture(ModBlocks.PACKED_MUD_TILES.get()));
+
+        stairsBlock(((StairBlock) ModBlocks.DRIED_MUD_TILE_STAIRS.get()),blockTexture(ModBlocks.DRIED_MUD_TILES.get()));
+        slabBlock(((SlabBlock) ModBlocks.DRIED_MUD_TILE_SLAB.get()),blockTexture(ModBlocks.DRIED_MUD_TILES.get()),blockTexture(ModBlocks.DRIED_MUD_TILES.get()));
+        wallBlock(((WallBlock) ModBlocks.DRIED_MUD_TILE_WALL.get()),blockTexture(ModBlocks.DRIED_MUD_TILES.get()));
+
         //simpleBlockWithItem(ModBlocks.CINNAMON_FERN.get(), models().cross(blockTexture(ModBlocks.CINNAMON_FERN.get()).getPath(),
                 //blockTexture(ModBlocks.CINNAMON_FERN.get())).renderType("cutout"));
         //simpleBlockWithItem(ModBlocks.POTTED_CINNAMON_FERN.get(), models().singleTexture("potted_catmint", new ResourceLocation("flower_pot_cross"), "plant",

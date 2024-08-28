@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "minecraft:mud_bricks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "MM ",
+    "MM "
+  ],
+  "result": {
+    "count": 4,
+    "item": "newandmuddy:packed_mud_tiles"
+  },
+  "show_notification": true
+}

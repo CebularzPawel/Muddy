@@ -10,6 +10,23 @@
     "newandmuddy:dried_mud_bricks",
     "newandmuddy:dried_mud_pillar",
     "newandmuddy:polished_dried_mud",
-    "newandmuddy:chiseled_dried_mud_bricks"
+    "newandmuddy:chiseled_dried_mud_bricks",
+    "newandmuddy:packed_mud_tiles",
+    "newandmuddy:dried_mud_bricks_slab",
+    "newandmuddy:polished_dried_mud_slab",
+    "newandmuddy:polished_packed_mud_slab",
+    "newandmuddy:dried_mud_bricks_stairs",
+    "newandmuddy:polished_dried_mud_stairs",
+    "newandmuddy:polished_packed_mud_stairs",
+    "newandmuddy:dried_mud_bricks_wall",
+    "newandmuddy:polished_dried_mud_wall",
+    "newandmuddy:polished_packed_mud_wall",
+    "newandmuddy:packed_mud_tile_wall",
+    "newandmuddy:packed_mud_tile_slab",
+    "newandmuddy:packed_mud_tile_stairs",
+    "newandmuddy:dried_mud_tiles",
+    "newandmuddy:dried_mud_tile_slab",
+    "newandmuddy:dried_mud_tile_stairs",
+    "newandmuddy:dried_mud_tile_wall"
   ]
 }

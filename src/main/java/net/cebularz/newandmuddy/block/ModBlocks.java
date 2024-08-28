@@ -3,7 +3,6 @@ package net.cebularz.newandmuddy.block;
 import net.cebularz.newandmuddy.block.custom.*;
 import net.cebularz.newandmuddy.NewAndMuddy;
 import net.cebularz.newandmuddy.item.ModItems;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -51,6 +50,25 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_DRIED_MUD_WALL = registerBlock("polished_dried_mud_wall",
             ()-> new WallBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
 
+    public static final RegistryObject<Block> PACKED_MUD_TILES = registerBlock("packed_mud_tiles",
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> PACKED_MUD_TILE_STAIRS = registerBlock("packed_mud_tile_stairs",
+            ()-> new StairBlock(()-> ModBlocks.PACKED_MUD_TILES.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> PACKED_MUD_TILE_SLAB = registerBlock("packed_mud_tile_slab",
+            ()-> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> PACKED_MUD_TILE_WALL = registerBlock("packed_mud_tile_wall",
+            ()-> new WallBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+
+    public static final RegistryObject<Block> DRIED_MUD_TILES = registerBlock("dried_mud_tiles",
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> DRIED_MUD_TILE_STAIRS = registerBlock("dried_mud_tile_stairs",
+            ()-> new StairBlock(()-> ModBlocks.DRIED_MUD_TILES.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> DRIED_MUD_TILE_SLAB = registerBlock("dried_mud_tile_slab",
+            ()-> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final RegistryObject<Block> DRIED_MUD_TILE_WALL = registerBlock("dried_mud_tile_wall",
+            ()-> new WallBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
 
     public static final RegistryObject<Block> DRIED_MUD_BRICKS = registerBlock("dried_mud_bricks",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));

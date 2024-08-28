@@ -13,7 +13,6 @@ import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -32,6 +31,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.MUD_PILLAR.get());
         this.noDrop();
         this.dropSelf(ModBlocks.VERDANT_MUD_LAMP.get());
+        this.dropSelf(ModBlocks.PACKED_MUD_TILES.get());
+        this.dropSelf(ModBlocks.DRIED_MUD_TILES.get());
         this.dropSelf(ModBlocks.OCHRE_MUD_LAMP.get());
         this.dropSelf(ModBlocks.PEARLESCENT_MUD_LAMP.get());
         this.dropSelf(ModBlocks.CHISELED_MUD_BRICKS.get());;
@@ -59,6 +60,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.POLISHED_DRIED_MUD_SLAB.get()));
         this.dropSelf(ModBlocks.POLISHED_DRIED_MUD_STAIRS.get());
         this.dropSelf(ModBlocks.POLISHED_DRIED_MUD_WALL.get());
+
+        this.add(ModBlocks.PACKED_MUD_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PACKED_MUD_TILE_SLAB.get()));
+        this.dropSelf(ModBlocks.PACKED_MUD_TILE_STAIRS.get());
+        this.dropSelf(ModBlocks.PACKED_MUD_TILE_WALL.get());
+
+        this.add(ModBlocks.DRIED_MUD_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DRIED_MUD_TILE_SLAB.get()));
+        this.dropSelf(ModBlocks.DRIED_MUD_TILE_STAIRS.get());
+        this.dropSelf(ModBlocks.DRIED_MUD_TILE_WALL.get());
 
         //this.dropSelf(ModBlocks.CINNAMON_FERN.get());
         //this.add(ModBlocks.POTTED_CINNAMON_FERN.get(), createPotFlowerItemTable(ModBlocks.CINNAMON_FERN.get()));

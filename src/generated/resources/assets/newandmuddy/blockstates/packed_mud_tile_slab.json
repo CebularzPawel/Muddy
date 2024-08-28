@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "newandmuddy:block/packed_mud_tile_slab"
+    },
+    "type=double": {
+      "model": "newandmuddy:block/packed_mud_tiles"
+    },
+    "type=top": {
+      "model": "newandmuddy:block/packed_mud_tile_slab_top"
+    }
+  }
+}

@@ -30,7 +30,19 @@
   "effect.newandmuddy.muddy": "Muddy",
   "block.newandmuddy.mud_farmland": "Mud Farmland",
   "block.newandmuddy.sinking_mud": "Sinking Mud",
-  "block.newandmuddy.cinnamon_fern": "Cinnamon Fern"
+  "block.newandmuddy.cinnamon_fern": "Cinnamon Fern",
+  "block.newandmuddy.packed_mud_tiles": "Packed Mud Tiles",
+  "block.newandmuddy.packed_mud_tile_stairs": "Packed Mud Tile Stairs",
+  "block.newandmuddy.packed_mud_tile_slab": "Packed Mud Tile Slab",
+  "block.newandmuddy.packed_mud_tile_wall": "Packed Mud Tile Wall",
+  "block.newandmuddy.dried_mud_tiles": "Dried Mud Tiles",
+  "block.newandmuddy.dried_mud_tile_stairs": "Dried Mud Tile Stairs",
+  "block.newandmuddy.dried_mud_tile_slab": "Dried Mud Tile Slab",
+  "block.newandmuddy.dried_mud_tile_wall": "Dried Mud Tile Wall"
+
+
+
+
 
 
 }

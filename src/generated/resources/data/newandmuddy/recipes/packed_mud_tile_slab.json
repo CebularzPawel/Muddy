@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "newandmuddy:packed_mud_tiles"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "MMM"
+  ],
+  "result": {
+    "count": 6,
+    "item": "newandmuddy:packed_mud_tile_slab"
+  },
+  "show_notification": true
+}

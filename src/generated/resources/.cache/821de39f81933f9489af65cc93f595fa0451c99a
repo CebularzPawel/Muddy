@@ -1,8 +1,14 @@
-// 1.20.1	2024-05-29T08:57:36.0285499	Item Models: newandmuddy
+// 1.20.1	2024-08-26T16:12:06.3829247	Item Models: newandmuddy
 4cccdbd77e9ce9993d61dbb1af6b93dd5ff061f9 assets/newandmuddy/models/item/dried_mud_bricks_slab.json
 afdf5024baec4de8c8644e6c0a75925f7023d8c3 assets/newandmuddy/models/item/dried_mud_bricks_stairs.json
 263b3a36669f89685dfce61c0a8f45ec5f07fbd2 assets/newandmuddy/models/item/dried_mud_bricks_wall.json
+c3201cb50d81b04710c4d99322d28f7c1b3d3fec assets/newandmuddy/models/item/dried_mud_tile_slab.json
+ad55366c5657edcc86c8f9e6846728f077bed66c assets/newandmuddy/models/item/dried_mud_tile_stairs.json
+cc82e804c452aefa0ba9f4ebf18691246620f2b7 assets/newandmuddy/models/item/dried_mud_tile_wall.json
 c647df96656aca3cf33794a0e60a88bb5d9a1927 assets/newandmuddy/models/item/packed_mud_ball.json
+0a94b8b1f416093126f33c39c852b8f91042d07e assets/newandmuddy/models/item/packed_mud_tile_slab.json
+c60980589aaaa08351429916919a3c50013458a7 assets/newandmuddy/models/item/packed_mud_tile_stairs.json
+aa7d3371aaca7281329c120997d3feeaac0c7b20 assets/newandmuddy/models/item/packed_mud_tile_wall.json
 b55075525adcf93847f40f7bce9271e01e060e63 assets/newandmuddy/models/item/polished_dried_mud_slab.json
 e3155718decf27c3c4fe81a802027726c91aae77 assets/newandmuddy/models/item/polished_dried_mud_stairs.json
 eb4894775a5c63ef0d0b488259a92664ffd19868 assets/newandmuddy/models/item/polished_dried_mud_wall.json

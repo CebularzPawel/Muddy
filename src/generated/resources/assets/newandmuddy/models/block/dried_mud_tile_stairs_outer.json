@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "newandmuddy:block/dried_mud_tiles",
+    "side": "newandmuddy:block/dried_mud_tiles",
+    "top": "newandmuddy:block/dried_mud_tiles"
+  }
+}

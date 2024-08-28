@@ -8,7 +8,6 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -35,7 +34,25 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                         ModBlocks.DRIED_MUD_BRICKS.get(),
                         ModBlocks.DRIED_MUD_PILLAR.get(),
                         ModBlocks.POLISHED_DRIED_MUD.get(),
-                        ModBlocks.CHISELED_DRIED_MUD_BRICKS.get()
+                        ModBlocks.CHISELED_DRIED_MUD_BRICKS.get(),
+                        ModBlocks.PACKED_MUD_TILES.get(),
+                        ModBlocks.DRIED_MUD_BRICKS_SLAB.get(),
+                        ModBlocks.POLISHED_DRIED_MUD_SLAB.get(),
+                        ModBlocks.POLISHED_PACKED_MUD_SLAB.get(),
+                        ModBlocks.DRIED_MUD_BRICKS_STAIRS.get(),
+                        ModBlocks.POLISHED_DRIED_MUD_STAIRS.get(),
+                        ModBlocks.POLISHED_PACKED_MUD_STAIRS.get(),
+                        ModBlocks.DRIED_MUD_BRICKS_WALL.get(),
+                        ModBlocks.POLISHED_DRIED_MUD_WALL.get(),
+                        ModBlocks.POLISHED_PACKED_MUD_WALL.get(),
+                        ModBlocks.PACKED_MUD_TILE_WALL.get(),
+                        ModBlocks.PACKED_MUD_TILE_SLAB.get(),
+                        ModBlocks.PACKED_MUD_TILE_STAIRS.get(),
+                        ModBlocks.DRIED_MUD_TILES.get(),
+                        ModBlocks.DRIED_MUD_TILE_SLAB.get(),
+                        ModBlocks.DRIED_MUD_TILE_STAIRS.get(),
+                        ModBlocks.DRIED_MUD_TILE_WALL.get()
+
                 );
 
 
@@ -47,6 +64,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.DRIED_MUD_BRICKS_WALL.get())
                 .add(ModBlocks.POLISHED_DRIED_MUD_WALL.get())
+                .add(ModBlocks.PACKED_MUD_TILE_WALL.get())
+                .add(ModBlocks.DRIED_MUD_TILE_WALL.get())
                 .add(ModBlocks.POLISHED_PACKED_MUD_WALL.get());
     }
 

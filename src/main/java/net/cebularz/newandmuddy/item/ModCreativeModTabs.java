@@ -3,7 +3,6 @@ package net.cebularz.newandmuddy.item;
 
 import net.cebularz.newandmuddy.NewAndMuddy;
 import net.cebularz.newandmuddy.block.ModBlocks;
-import net.cebularz.newandmuddy.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -28,6 +27,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.POLISHED_PACKED_MUD_STAIRS.get());
                         pOutput.accept(ModBlocks.POLISHED_PACKED_MUD_SLAB.get());
                         pOutput.accept(ModBlocks.POLISHED_PACKED_MUD_WALL.get());
+                        pOutput.accept(ModBlocks.PACKED_MUD_TILES.get());
+                        pOutput.accept(ModBlocks.PACKED_MUD_TILE_STAIRS.get());
+                        pOutput.accept(ModBlocks.PACKED_MUD_TILE_SLAB.get());
+                        pOutput.accept(ModBlocks.PACKED_MUD_TILE_WALL.get());
                         pOutput.accept(ModBlocks.MUD_PILLAR.get());
                         pOutput.accept(ModBlocks.CHISELED_MUD_BRICKS.get());
                         pOutput.accept(ModBlocks.OCHRE_MUD_LAMP.get());
@@ -42,6 +45,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.POLISHED_DRIED_MUD_STAIRS.get());
                         pOutput.accept(ModBlocks.POLISHED_DRIED_MUD_SLAB.get());
                         pOutput.accept(ModBlocks.POLISHED_DRIED_MUD_WALL.get());
+                        pOutput.accept(ModBlocks.DRIED_MUD_TILES.get());
+                        pOutput.accept(ModBlocks.DRIED_MUD_TILE_STAIRS.get());
+                        pOutput.accept(ModBlocks.DRIED_MUD_TILE_SLAB.get());
+                        pOutput.accept(ModBlocks.DRIED_MUD_TILE_WALL.get());
                         pOutput.accept(ModBlocks.DRIED_MUD_PILLAR.get());
                         pOutput.accept(ModBlocks.CHISELED_DRIED_MUD_BRICKS.get());
                         pOutput.accept(ModBlocks.OCHRE_DRIED_MUD_LAMP.get());

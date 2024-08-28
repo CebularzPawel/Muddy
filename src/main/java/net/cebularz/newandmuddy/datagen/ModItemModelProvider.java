@@ -36,6 +36,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.POLISHED_DRIED_MUD_STAIRS);
         evenSimplerBlockItem(ModBlocks.POLISHED_DRIED_MUD_SLAB);
 
+        wallItem(ModBlocks.PACKED_MUD_TILE_WALL, ModBlocks.PACKED_MUD_TILES);
+        evenSimplerBlockItem(ModBlocks.PACKED_MUD_TILE_STAIRS);
+        evenSimplerBlockItem(ModBlocks.PACKED_MUD_TILE_SLAB);
+
+        wallItem(ModBlocks.DRIED_MUD_TILE_WALL, ModBlocks.DRIED_MUD_TILES);
+        evenSimplerBlockItem(ModBlocks.DRIED_MUD_TILE_STAIRS);
+        evenSimplerBlockItem(ModBlocks.DRIED_MUD_TILE_SLAB);
         //simpleBlockItemBlockTexture(ModBlocks.CINNAMON_FERN);
 
     }
