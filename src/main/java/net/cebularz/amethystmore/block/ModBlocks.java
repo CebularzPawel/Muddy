@@ -2,11 +2,14 @@ package net.cebularz.amethystmore.block;
 
 import net.cebularz.amethystmore.AmethystMore;
 import net.cebularz.amethystmore.block.custom.AmethystBallBlock;
+import net.cebularz.amethystmore.block.custom.AmethystSpikeBlock;
 import net.cebularz.amethystmore.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -52,6 +55,13 @@ public class ModBlocks {
             ()-> new AmethystBallBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion().pushReaction(PushReaction.DESTROY).lightLevel((p_50870_) -> {
                 return 10;
             })));
+
+
+    public static final RegistryObject<Block> AMETHYST_SPIKE = registerBlock("amethyst_spike",
+            ()-> new AmethystSpikeBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).forceSolidOn().noOcclusion().randomTicks().strength(1.0F, 3.0F).dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY).lightLevel((p_50870_) -> {
+                return 5;
+            })));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
        RegistryObject<T> toReturn = BLOCKS.register(name,block);
        registerBlockitem(name,toReturn);

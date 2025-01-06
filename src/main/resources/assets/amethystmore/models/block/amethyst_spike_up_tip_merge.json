@@ -1,0 +1,6 @@
+{
+  "parent": "amethystmore:block/amethyst_spike",
+  "textures": {
+    "cross": "amethystmore:block/amethyst_spike_up_tip_merge"
+  }
+}

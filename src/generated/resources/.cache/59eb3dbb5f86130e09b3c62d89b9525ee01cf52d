@@ -1,10 +1,11 @@
-// 1.20.1	2024-12-22T01:51:04.074345	Loot Tables
+// 1.20.1	2025-01-06T17:02:11.1919075	Loot Tables
 4290aa1ab4d161fff29c46a17a63a783efe9d4bc data/amethystmore/loot_tables/blocks/amethyst_ball.json
 ff0eea6ad2da4d9e9da23f19c907467b57417088 data/amethystmore/loot_tables/blocks/amethyst_bricks.json
 5172f64f1c7cad1d365c389ec18a6ff103a860d0 data/amethystmore/loot_tables/blocks/amethyst_bricks_slab.json
 36aa2bc62e1ec8865753580b426a9601acb3ef62 data/amethystmore/loot_tables/blocks/amethyst_bricks_stairs.json
 c1b4917103ef2edced51b09955527ac458af6236 data/amethystmore/loot_tables/blocks/amethyst_bricks_wall.json
 bf5dc40f17d357ac79e6a163fa794c3710e5d84c data/amethystmore/loot_tables/blocks/amethyst_pillar.json
+a704f4144a5b861a6b0a04cb0c06187fbfc5d288 data/amethystmore/loot_tables/blocks/amethyst_spike.json
 25d09185162850c171665618404147a89cf3ab0d data/amethystmore/loot_tables/blocks/chiseled_amethyst_bricks.json
 ea211a3e036420eeecf6d4e329ec2307f0f62b2c data/amethystmore/loot_tables/blocks/polished_amethyst.json
 a8738d394bf88e77115b7d69e50e44c3df83e121 data/amethystmore/loot_tables/blocks/polished_amethyst_slab.json
