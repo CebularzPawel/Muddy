@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "newandmuddy:block/polished_dried_mud",
-    "side": "newandmuddy:block/polished_dried_mud",
-    "top": "newandmuddy:block/polished_dried_mud"
-  }
-}

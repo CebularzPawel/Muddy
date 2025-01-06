@@ -1,15 +1,14 @@
 {
   "values": [
-    "newandmuddy:mud_pillar",
-    "newandmuddy:polished_packed_mud",
-    "newandmuddy:verdant_mud_lamp",
-    "newandmuddy:ochre_mud_lamp",
-    "newandmuddy:pearlescent_mud_lamp",
-    "newandmuddy:chiseled_mud_bricks",
-    "newandmuddy:dried_mud",
-    "newandmuddy:dried_mud_bricks",
-    "newandmuddy:dried_mud_pillar",
-    "newandmuddy:polished_dried_mud",
-    "newandmuddy:chiseled_dried_mud_bricks"
+    "amethystmore:amethyst_bricks",
+    "amethystmore:chiseled_amethyst_bricks",
+    "amethystmore:amethyst_bricks_slab",
+    "amethystmore:amethyst_bricks_wall",
+    "amethystmore:amethyst_bricks_stairs",
+    "amethystmore:polished_amethyst",
+    "amethystmore:polished_amethyst_stairs",
+    "amethystmore:polished_amethyst_slab",
+    "amethystmore:polished_amethyst_wall",
+    "amethystmore:amethyst_pillar"
   ]
 }

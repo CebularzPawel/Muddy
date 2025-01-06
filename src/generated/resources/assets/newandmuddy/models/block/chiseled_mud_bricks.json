@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "newandmuddy:block/chiseled_mud_bricks"
-  }
-}

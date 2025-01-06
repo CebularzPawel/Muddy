@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_17",
+  "package": "net.cebularz.amethystmore.mixin",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+  ]
+}
