@@ -2,6 +2,7 @@ package net.cebularz.amethystmore.block;
 
 import net.cebularz.amethystmore.AmethystMore;
 import net.cebularz.amethystmore.block.custom.AmethystBallBlock;
+import net.cebularz.amethystmore.block.custom.AmethystMosaicBlock;
 import net.cebularz.amethystmore.block.custom.AmethystSpikeBlock;
 import net.cebularz.amethystmore.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -50,7 +51,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> AMETHYST_PILLAR = registerBlock("amethyst_pillar",
             ()-> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).requiresCorrectToolForDrops()));
-
+    public static final RegistryObject<Block> AMETHYST_MOSAIC = registerBlock("amethyst_mosaic",
+            ()-> new AmethystMosaicBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> AMETHYST_BALL = registerBlock("amethyst_ball",
             ()-> new AmethystBallBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion().pushReaction(PushReaction.DESTROY).lightLevel((p_50870_) -> {
                 return 10;
