@@ -39,7 +39,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 new ResourceLocation(AmethystMore.MOD_ID, "block/amethyst_pillar_end"));
         blockItem(ModBlocks.AMETHYST_PILLAR);
         blockWithItem(ModBlocks.AMETHYST_MOSAIC);
-        Horizon
+        
 
         simpleBlockWithItem(ModBlocks.AMETHYST_BALL.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/amethyst_ball")));

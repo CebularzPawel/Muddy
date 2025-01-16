@@ -52,7 +52,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> AMETHYST_PILLAR = registerBlock("amethyst_pillar",
             ()-> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> AMETHYST_MOSAIC = registerBlock("amethyst_mosaic",
-            ()-> new AmethystMosaicBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).requiresCorrectToolForDrops()));
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> AMETHYST_BALL = registerBlock("amethyst_ball",
             ()-> new AmethystBallBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion().pushReaction(PushReaction.DESTROY).lightLevel((p_50870_) -> {
                 return 10;
