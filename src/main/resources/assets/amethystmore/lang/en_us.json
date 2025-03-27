@@ -14,6 +14,7 @@
   "block.amethystmore.amethyst_ball": "Amethyst Ball",
   "block.amethystmore.amethyst_spike": "Amethyst Spike",
   "item.amethystmore.amethyst_ender_pearl": "Amethyst Ender Pearl",
-  "item.amethystmore.amethyst_carrot": "Amethyst Carrot"
-
+  "item.amethystmore.amethyst_carrot": "Amethyst Carrot",
+  "block.amethystmore.amethyst_mosaic": "Amethyst Mosaic",
+  "effect.amethystmore.purification": "Purification"
 }

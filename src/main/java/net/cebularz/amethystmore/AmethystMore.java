@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.cebularz.amethystmore.block.ModBlocks;
 
 import net.cebularz.amethystmore.client.renderer.entity.AmethystArrowRenderer;
+import net.cebularz.amethystmore.effect.ModEffects;
 import net.cebularz.amethystmore.item.ModCreativeModTabs;
 import net.cebularz.amethystmore.item.ModItems;
 import net.cebularz.amethystmore.particle.ModParticles;
@@ -50,7 +51,7 @@ public class AmethystMore
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-
+        ModEffects.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
