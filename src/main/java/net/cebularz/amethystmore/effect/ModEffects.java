@@ -13,7 +13,7 @@ public class ModEffects {
             = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, AmethystMore.MOD_ID);
 
     public static final RegistryObject<MobEffect> PURIFICATION = MOB_EFFECTS.register("purification",
-            () -> new PurificationEffect(MobEffectCategory.BENEFICIAL,204102255));
+            () -> new PurificationEffect(MobEffectCategory.BENEFICIAL,14194136));
 
     public static void register(IEventBus eventBus){
         MOB_EFFECTS.register(eventBus);
