@@ -1,4 +1,4 @@
-// 1.20.1	2025-01-12T19:40:44.0655645	Block States: amethystmore
+// 1.20.1	2025-03-28T18:29:53.6487571	Block States: amethystmore
 d1c2d7652d1f1808115b66b0d818c477308f02b7 assets/amethystmore/blockstates/amethyst_ball.json
 c9e3c5c4a7996e59b457fbe6391152e146b314ca assets/amethystmore/blockstates/amethyst_bricks.json
 e2c04489d52152460f36e2ef0eebf2652fd4224e assets/amethystmore/blockstates/amethyst_bricks_slab.json
@@ -6,6 +6,7 @@ e2c04489d52152460f36e2ef0eebf2652fd4224e assets/amethystmore/blockstates/amethys
 39cb175e0c9efba9d7a66fa4a4c6c490e7efcfcb assets/amethystmore/blockstates/amethyst_bricks_wall.json
 ed5cdd970f8bde464818f5f8c86f2aa6789991f5 assets/amethystmore/blockstates/amethyst_mosaic.json
 5e43a5c387c28fbdd680a272c73512141d66b400 assets/amethystmore/blockstates/amethyst_pillar.json
+09033a2d906c7ffefb28e6526c5e295c02ade8cf assets/amethystmore/blockstates/amethyst_spiral.json
 62ef854927a7cd04fc8337e41893e5f42d84aa88 assets/amethystmore/blockstates/chiseled_amethyst_bricks.json
 293fd181bc3043e0ab13fed23af99f0b335ed059 assets/amethystmore/blockstates/polished_amethyst.json
 403a2122e21298b51e9bdccc5f4dd846635e580e assets/amethystmore/blockstates/polished_amethyst_slab.json
@@ -23,6 +24,7 @@ cbd49bd931f09f3cedfa1efad624e4e7c904bca4 assets/amethystmore/models/block/amethy
 7b456d228c921f1f1515e5dd49242eebbde61fcb assets/amethystmore/models/block/amethyst_mosaic.json
 b16f87abf66c8ba0450f0cdd273e0238a6b829a5 assets/amethystmore/models/block/amethyst_pillar.json
 82c5d84ce04dddce77dcbfaf33485fd92d5a2403 assets/amethystmore/models/block/amethyst_pillar_horizontal.json
+bd0028b98797f663e9ff7928711b811b0e91e408 assets/amethystmore/models/block/amethyst_spiral.json
 9e4ec5ca33843b994866561957258b24d8483584 assets/amethystmore/models/block/chiseled_amethyst_bricks.json
 a877adc391a49e69fd4b34e14be86121655e57c7 assets/amethystmore/models/block/polished_amethyst.json
 a428df4c06a643edfb657478d08bb9f64b7034d4 assets/amethystmore/models/block/polished_amethyst_slab.json
@@ -37,5 +39,6 @@ cf9475a772b58af789289d73d9b87f5a7a3355dd assets/amethystmore/models/block/polish
 ae0eda72469a08b595268fc9de7d544fe1243fe3 assets/amethystmore/models/item/amethyst_bricks.json
 e0cda8820a234d6693e6f7257c365f4c7a84415c assets/amethystmore/models/item/amethyst_mosaic.json
 0071e69679fe233023e1979fc2ff81623109e48c assets/amethystmore/models/item/amethyst_pillar.json
+9bb2efd1fefaec99f2f006cb328f01142847113e assets/amethystmore/models/item/amethyst_spiral.json
 767c18950fbc826e5bc603720f4e612fe64e7680 assets/amethystmore/models/item/chiseled_amethyst_bricks.json
 4fa4b0774bbb8c42fab66414859065ac5d35fea4 assets/amethystmore/models/item/polished_amethyst.json

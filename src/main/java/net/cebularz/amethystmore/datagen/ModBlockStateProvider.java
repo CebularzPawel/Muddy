@@ -43,6 +43,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlockWithItem(ModBlocks.AMETHYST_BALL.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/amethyst_ball")));
+        blockWithItem(ModBlocks.AMETHYST_SPIRAL);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -37,6 +37,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block>  POLISHED_AMETHYST = registerBlock("polished_amethyst",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block>  AMETHYST_SPIRAL = registerBlock("amethyst_spiral",
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
     public static final RegistryObject<Block> POLISHED_AMETHYST_STAIRS = registerBlock("polished_amethyst_stairs",
             ()-> new StairBlock(()-> ModBlocks.POLISHED_AMETHYST.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
     public static final RegistryObject<Block> POLISHED_AMETHYST_SLAB = registerBlock("polished_amethyst_slab",

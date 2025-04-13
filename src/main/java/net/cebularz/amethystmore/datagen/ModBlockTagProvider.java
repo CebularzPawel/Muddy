@@ -35,8 +35,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                         ModBlocks.AMETHYST_PILLAR.get(),
                         ModBlocks.AMETHYST_BALL.get(),
                         ModBlocks.AMETHYST_SPIKE.get(),
-                        ModBlocks.AMETHYST_MOSAIC.get()
-
+                        ModBlocks.AMETHYST_MOSAIC.get(),
+                        ModBlocks.AMETHYST_SPIRAL.get()
                 );
 
 

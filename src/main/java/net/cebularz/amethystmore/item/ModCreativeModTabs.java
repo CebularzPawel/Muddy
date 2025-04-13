@@ -27,6 +27,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.POLISHED_AMETHYST_SLAB.get());
                         pOutput.accept(ModBlocks.POLISHED_AMETHYST_WALL.get());
                         pOutput.accept(ModBlocks.POLISHED_AMETHYST_STAIRS.get());
+                        pOutput.accept(ModBlocks.AMETHYST_SPIRAL.get());
+                        pOutput.accept(ModBlocks.AMETHYST_MOSAIC.get());
                         pOutput.accept(ModBlocks.AMETHYST_PILLAR.get());
                         pOutput.accept(ModBlocks.AMETHYST_BALL.get());
                         pOutput.accept(ModBlocks.AMETHYST_SPIKE.get());
@@ -34,6 +36,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.AMETHYST_CARROT.get());
                         pOutput.accept(ModItems.AMETHYST_ARROW.get());
                         pOutput.accept(ModItems.AMETHYST_ENDER_PEARL.get());
+
                     })
                     .build());
 
