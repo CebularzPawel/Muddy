@@ -66,6 +66,15 @@ public class ModBlocks {
                 return 5;
             })));
 
+
+    public static final RegistryObject<Block> AMETHYST_STAIRS = registerBlock("amethyst_stairs",
+            ()-> new StairBlock(()-> Blocks.AMETHYST_BLOCK.defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> AMETHYST_SLAB = registerBlock("amethyst_slab",
+            ()-> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> AMETHYST_WALL = registerBlock("amethyst_wall",
+            ()-> new WallBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
        RegistryObject<T> toReturn = BLOCKS.register(name,block);
        registerBlockitem(name,toReturn);

@@ -36,13 +36,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                         ModBlocks.AMETHYST_BALL.get(),
                         ModBlocks.AMETHYST_SPIKE.get(),
                         ModBlocks.AMETHYST_MOSAIC.get(),
-                        ModBlocks.AMETHYST_SPIRAL.get()
+                        ModBlocks.AMETHYST_SPIRAL.get(),
+                        ModBlocks.AMETHYST_STAIRS.get(),
+                        ModBlocks.AMETHYST_SLAB.get(),
+                        ModBlocks.AMETHYST_WALL.get()
                 );
 
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.AMETHYST_BRICKS_WALL.get(),
-                        ModBlocks.POLISHED_AMETHYST_WALL.get()
+                        ModBlocks.POLISHED_AMETHYST_WALL.get(),
+                        ModBlocks.AMETHYST_BRICKS_WALL.get(),
+                        ModBlocks.AMETHYST_WALL.get()
+
                 );
 
 

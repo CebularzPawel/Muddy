@@ -12,6 +12,7 @@ import java.util.function.Predicate;
 import javax.annotation.Nullable;
 
 import net.cebularz.amethystmore.block.ModBlocks;
+import net.cebularz.amethystmore.damage.ModDamageTypes;
 import net.cebularz.amethystmore.particle.ModParticles;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -22,6 +23,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.damagesource.DamageSources;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.FallingBlockEntity;
 import net.minecraft.world.entity.projectile.Projectile;
@@ -135,7 +137,7 @@ public class AmethystSpikeBlock extends Block implements Fallable, SimpleWaterlo
 
     public void fallOn(Level pLevel, BlockState pState, BlockPos pPos, Entity pEntity, float pFallDistance) {
         if (pState.getValue(TIP_DIRECTION) == Direction.UP && pState.getValue(THICKNESS) == DripstoneThickness.TIP) {
-            pEntity.causeFallDamage(pFallDistance + 2.0F, 2.0F, pLevel.damageSources().stalagmite());
+            pEntity.causeFallDamage(pFallDistance + 2.0F, 2.0F, ModDamageTypes.amethystSpikeDamage(pLevel));
         } else {
             super.fallOn(pLevel, pState, pPos, pEntity, pFallDistance);
         }

@@ -172,7 +172,32 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Blocks.AMETHYST_BLOCK)
                 .define('a', Items.AMETHYST_SHARD)
                 .define('d', Items.DIAMOND)
-                .unlockedBy(getHasName(ModBlocks.POLISHED_AMETHYST.get()), has(ModBlocks.POLISHED_AMETHYST.get()))
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(consumer);
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AMETHYST_SLAB.get(),6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("MMM")
+                .define('M', Blocks.AMETHYST_BLOCK)
+                .unlockedBy(getHasName(Blocks.AMETHYST_BLOCK), has(Blocks.AMETHYST_BLOCK))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AMETHYST_STAIRS.get(),4)
+                .pattern("M  ")
+                .pattern("MM ")
+                .pattern("MMM")
+                .define('M', Blocks.AMETHYST_BLOCK)
+                .unlockedBy(getHasName(Blocks.AMETHYST_BLOCK), has(Blocks.AMETHYST_BLOCK))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AMETHYST_WALL.get(),6)
+                .pattern("   ")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', Blocks.AMETHYST_BLOCK)
+                .unlockedBy(getHasName(Blocks.AMETHYST_BLOCK), has(Blocks.AMETHYST_BLOCK))
                 .save(consumer);
     }
 }

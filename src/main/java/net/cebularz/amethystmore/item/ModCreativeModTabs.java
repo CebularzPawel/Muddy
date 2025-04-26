@@ -18,6 +18,9 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AMETHYST_BRICKS.get()))
                     .title(Component.translatable("creativetab.amethyst_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.AMETHYST_SLAB.get());
+                        pOutput.accept(ModBlocks.AMETHYST_WALL.get());
+                        pOutput.accept(ModBlocks.AMETHYST_STAIRS.get());
                         pOutput.accept(ModBlocks.AMETHYST_BRICKS.get());
                         pOutput.accept(ModBlocks.AMETHYST_BRICKS_SLAB.get());
                         pOutput.accept(ModBlocks.AMETHYST_BRICKS_WALL.get());

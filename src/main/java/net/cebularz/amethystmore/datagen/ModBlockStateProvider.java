@@ -21,7 +21,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
-
+        stairsBlock(((StairBlock) ModBlocks.AMETHYST_STAIRS.get()),blockTexture(Blocks.AMETHYST_BLOCK));
+        slabBlock(((SlabBlock) ModBlocks.AMETHYST_SLAB.get()),blockTexture(Blocks.AMETHYST_BLOCK),blockTexture(Blocks.AMETHYST_BLOCK));
+        wallBlock(((WallBlock) ModBlocks.AMETHYST_WALL.get()),blockTexture(Blocks.AMETHYST_BLOCK));
 
         blockWithItem(ModBlocks.AMETHYST_BRICKS);
         stairsBlock(((StairBlock) ModBlocks.AMETHYST_BRICKS_STAIRS.get()),blockTexture(ModBlocks.AMETHYST_BRICKS.get()));

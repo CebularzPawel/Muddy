@@ -18,5 +18,10 @@
   "block.amethystmore.amethyst_mosaic": "Amethyst Mosaic",
   "block.amethystmore.amethyst_spiral": "Amethyst Spiral",
   "effect.amethystmore.purification": "Purification",
-  "creativetab.amethyst_tab": "Amethyst More"
+  "creativetab.amethyst_tab": "Amethyst More",
+  "block.amethystmore.amethyst_slab": "Amethyst Slab",
+  "block.amethystmore.amethyst_stairs": "Amethyst Stairs",
+  "block.amethystmore.amethyst_wall": "Amethyst Wall",
+  "death.attack.amethyst_spike": "%1$s was impaled on an amethyst spike",
+  "death.attack.amethyst_spike.player": "%1$s was impaled on an amethyst spike whilst fighting %2$s"
 }

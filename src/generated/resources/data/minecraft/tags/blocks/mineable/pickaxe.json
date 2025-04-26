@@ -13,6 +13,9 @@
     "amethystmore:amethyst_ball",
     "amethystmore:amethyst_spike",
     "amethystmore:amethyst_mosaic",
-    "amethystmore:amethyst_spiral"
+    "amethystmore:amethyst_spiral",
+    "amethystmore:amethyst_stairs",
+    "amethystmore:amethyst_slab",
+    "amethystmore:amethyst_wall"
   ]
 }
