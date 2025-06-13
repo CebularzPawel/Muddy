@@ -199,5 +199,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('M', Blocks.AMETHYST_BLOCK)
                 .unlockedBy(getHasName(Blocks.AMETHYST_BLOCK), has(Blocks.AMETHYST_BLOCK))
                 .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AMETHYST_SPIKE.get(),2)
+                .pattern("   ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.AMETHYST_SHARD)
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.AMETHYST_SHARD,1)
+                .pattern("   ")
+                .pattern(" A ")
+                .pattern("   ")
+                .define('A', ModBlocks.AMETHYST_SPIKE.get())
+                .unlockedBy(getHasName(ModBlocks.AMETHYST_SPIKE.get()), has(ModBlocks.AMETHYST_SPIKE.get()))
+                .save(consumer);
     }
 }

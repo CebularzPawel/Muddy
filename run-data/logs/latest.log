@@ -1,37 +1,37 @@
-[26kwi2025 19:13:30.386] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\HARDPC\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, amethystmore, --all, --output, C:\Users\HARDPC\Desktop\Amethyst\src\generated\resources, --existing, C:\Users\HARDPC\Desktop\Amethyst\src\main\resources, --mixin.config, mixins.amethystmore.json]
-[26kwi2025 19:13:30.392] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[26kwi2025 19:13:30.519] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[26kwi2025 19:13:30.579] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/HARDPC/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[26kwi2025 19:13:30.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.32\9d7e04e58b558bf95759e2d94b77944a0845d1cb\javafmllanguage-1.20.1-47.2.32.jar is missing mods.toml file
-[26kwi2025 19:13:30.988] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.32\38d24291ba53d0eebaa2830618f331bc728d4b90\lowcodelanguage-1.20.1-47.2.32.jar is missing mods.toml file
-[26kwi2025 19:13:30.992] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.32\63a076b8fcbb860cfddb7cec5c1374338a5043da\mclanguage-1.20.1-47.2.32.jar is missing mods.toml file
-[26kwi2025 19:13:30.996] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.32\cb79ea145f390bce56ce90e2cc62eb6928911801\fmlcore-1.20.1-47.2.32.jar is missing mods.toml file
-[26kwi2025 19:13:31.081] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[26kwi2025 19:13:32.422] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.amethystmore.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[26kwi2025 19:13:32.422] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[26kwi2025 19:13:32.422] [main/ERROR] [mixin/]: Mixin config mixins.amethystmore.json does not specify "minVersion" property
-[26kwi2025 19:13:32.426] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\HARDPC\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, amethystmore, --all, --output, C:\Users\HARDPC\Desktop\Amethyst\src\generated\resources, --existing, C:\Users\HARDPC\Desktop\Amethyst\src\main\resources]
-[26kwi2025 19:13:32.482] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
-[26kwi2025 19:13:32.483] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
-[26kwi2025 19:13:32.487] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[26kwi2025 19:13:32.487] [main/INFO] [mixin/]: Selecting config mixins.amethystmore.json
-[26kwi2025 19:13:32.490] [main/INFO] [mixin/]: Preparing mixins.amethystmore.json (0)
-[26kwi2025 19:13:32.768] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [amethystmore]
-[26kwi2025 19:13:36.887] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
-[26kwi2025 19:13:36.890] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.32 Initialized
-[26kwi2025 19:13:37.374] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/HARDPC/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[26kwi2025 19:13:37.375] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/HARDPC/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[26kwi2025 19:13:37.506] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[26kwi2025 19:13:37.557] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 50 ms
-[26kwi2025 19:13:37.557] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[26kwi2025 19:13:37.603] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 45 ms
-[26kwi2025 19:13:37.603] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: amethystmore
-[26kwi2025 19:13:37.792] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: amethystmore finished after 188 ms
-[26kwi2025 19:13:37.792] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: amethystmore
-[26kwi2025 19:13:37.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: amethystmore finished after 2 ms
-[26kwi2025 19:13:37.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id amethystmore
-[26kwi2025 19:13:37.807] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id amethystmore finished after 11 ms
-[26kwi2025 19:13:37.807] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id amethystmore
-[26kwi2025 19:13:37.809] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id amethystmore finished after 1 ms
-[26kwi2025 19:13:37.809] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 303 ms
-[26kwi2025 19:13:37.827] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 171, old count: 171, new count: 172, removed stale: 0, written: 0
+[13cze2025 12:40:32.911] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\HARDPC\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, amethystmore, --all, --output, C:\Users\HARDPC\Desktop\Amethyst\src\generated\resources, --existing, C:\Users\HARDPC\Desktop\Amethyst\src\main\resources, --mixin.config, mixins.amethystmore.json]
+[13cze2025 12:40:32.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[13cze2025 12:40:33.074] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[13cze2025 12:40:33.154] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/HARDPC/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[13cze2025 12:40:33.553] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.32\9d7e04e58b558bf95759e2d94b77944a0845d1cb\javafmllanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[13cze2025 12:40:33.557] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.32\38d24291ba53d0eebaa2830618f331bc728d4b90\lowcodelanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[13cze2025 12:40:33.560] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.32\63a076b8fcbb860cfddb7cec5c1374338a5043da\mclanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[13cze2025 12:40:33.564] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\HARDPC\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.32\cb79ea145f390bce56ce90e2cc62eb6928911801\fmlcore-1.20.1-47.2.32.jar is missing mods.toml file
+[13cze2025 12:40:33.626] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13cze2025 12:40:35.045] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.amethystmore.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[13cze2025 12:40:35.046] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13cze2025 12:40:35.046] [main/ERROR] [mixin/]: Mixin config mixins.amethystmore.json does not specify "minVersion" property
+[13cze2025 12:40:35.048] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\HARDPC\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, amethystmore, --all, --output, C:\Users\HARDPC\Desktop\Amethyst\src\generated\resources, --existing, C:\Users\HARDPC\Desktop\Amethyst\src\main\resources]
+[13cze2025 12:40:35.106] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[13cze2025 12:40:35.107] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[13cze2025 12:40:35.112] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[13cze2025 12:40:35.112] [main/INFO] [mixin/]: Selecting config mixins.amethystmore.json
+[13cze2025 12:40:35.115] [main/INFO] [mixin/]: Preparing mixins.amethystmore.json (0)
+[13cze2025 12:40:35.362] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [amethystmore]
+[13cze2025 12:40:39.498] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
+[13cze2025 12:40:39.501] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.32 Initialized
+[13cze2025 12:40:39.981] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/HARDPC/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[13cze2025 12:40:39.981] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/HARDPC/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.32_mapped_parchment_2023.06.26-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[13cze2025 12:40:40.122] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[13cze2025 12:40:40.162] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 38 ms
+[13cze2025 12:40:40.162] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[13cze2025 12:40:40.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 37 ms
+[13cze2025 12:40:40.200] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: amethystmore
+[13cze2025 12:40:40.387] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: amethystmore finished after 187 ms
+[13cze2025 12:40:40.387] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: amethystmore
+[13cze2025 12:40:40.391] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: amethystmore finished after 3 ms
+[13cze2025 12:40:40.392] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id amethystmore
+[13cze2025 12:40:40.404] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id amethystmore finished after 12 ms
+[13cze2025 12:40:40.404] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id amethystmore
+[13cze2025 12:40:40.406] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id amethystmore finished after 1 ms
+[13cze2025 12:40:40.406] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 284 ms
+[13cze2025 12:40:40.424] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 175, old count: 171, new count: 176, removed stale: 0, written: 4
